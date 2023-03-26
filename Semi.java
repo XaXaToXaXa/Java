@@ -14,7 +14,7 @@ public class Semi {
 
         // Дан массив двоичных чисел, например [1,1,0,1,1,1],
         // вывести максимальное количество подряд идущих 1.
-        /*
+        
         Scanner in = new Scanner(System.in);
         System.out.print("Entr size array: ");
         int size = in.nextInt();
@@ -32,7 +32,7 @@ public class Semi {
                 count = 0;
         }
         System.out.printf("Максиальное кол-во единиц подряд = %d \n", max);
-        */
+        in.close();
     }
 
 }
