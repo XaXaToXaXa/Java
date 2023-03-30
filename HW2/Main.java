@@ -5,13 +5,13 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-       Task1 task1 = new Task1();
+        Task1 task1 = new Task1();
 //        String[] list = Task1.ReadLineFromFile("D:\Git\Java\HW2\data.txt");
 //        System.out.println("Данные в файле: " + list[0]);
 //        StringBuilder resultSelect = Task1.LineInList(list[0]);
 //        System.out.println(resultSelect);
 
-       Task2 task2 = new Task2();
+        Task2 task2 = new Task2();
 //        Scanner input = new Scanner(System.in);
 //        System.out.print("Введите размер массива: ");
 //        int num = input.nextInt();
@@ -26,7 +26,16 @@ public class Main {
 //            System.out.println(Task3.PrintLine(arrayData[i]));
 
         Task4 task4 = new Task4();
-        }
-
+        Scanner in = new Scanner(System.in);
+        System.out.print("Введите первое число: ");
+        double num1 = in.nextDouble();
+        System.out.print("Введите второе число: ");
+        double num2 = in.nextDouble();
+        System.out.print("Введите операцию (+ - / *): ");
+        char operation = in.next().charAt(0);
+        in.close();
+        Task4.calc(num1,num2,operation);
     }
+
 }
+
