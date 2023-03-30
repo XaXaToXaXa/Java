@@ -1,5 +1,8 @@
 package HW2;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) throws Exception {
 //        Task1 task1 = new Task1();
@@ -8,5 +11,13 @@ public class Main {
 //        StringBuilder resultSelect = Task1.LineInList(list[0]);
 //        System.out.println(resultSelect);
 
+        Task2 task2 = new Task2();
+        Scanner input = new Scanner(System.in);
+        System.out.print("Введите размер массива: ");
+        int num = input.nextInt();
+        int[] array = Task2.fillArray(num);
+        Task2.sort(array);
+        System.out.println(Arrays.toString(array));
+        input.close();
     }
 }
