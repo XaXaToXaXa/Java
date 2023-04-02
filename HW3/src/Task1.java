@@ -11,7 +11,11 @@ public class Task1 {
         }
         return array;
     }
-
+    public static void PrintArray(int [] array) {
+        for (int element : array) {
+            System.out.print(element + " ");
+        }
+    }
     public static void mergeSort(int [] array, int n){
         if (n<2) return;
         int mid = n/2;

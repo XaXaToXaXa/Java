@@ -9,14 +9,12 @@ public class Main {
         int size = 10;
         int[] myArray = Task1.FillRandomArray(size);
         System.out.println("Исходный массив: ");
-        for (int element : myArray) {
-            System.out.print(element + " ");
-        }
+        Task1.PrintArray(myArray);
         Task1.mergeSort(myArray, size);
         System.out.println();
         System.out.println("Отсортированный массив: ");
-        for (int element : myArray) {
-            System.out.print(element + " ");
-        }
+        Task1.PrintArray(myArray);
     }
+
 }
+
