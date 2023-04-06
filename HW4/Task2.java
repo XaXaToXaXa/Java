@@ -17,9 +17,9 @@ public class Task2 {
     }
     public static void dequeue(LinkedList<Integer> list){
         int i = list.pollFirst();
-        System.out.println("Number to remove from list: " + i);
+        System.out.println("Элемент который удаляемый из списка: " + i);
     }
     public static void first(LinkedList<Integer> list){
-        System.out.println("First element in list: " + list.peekFirst());
+        System.out.println("Первый элемент списка: " + list.peekFirst());
     }
 }
