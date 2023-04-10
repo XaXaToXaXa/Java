@@ -12,7 +12,7 @@ public class Task1 {
     public static Map<String, List<String>> phoneBook() {
         Map<String, List<String>> book = new HashMap<>();
         book.put("Иванов",List.of("5641321646","35133213"));
-        book.put("Петров",List.of("3543642346","2432134"));
+        book.put("Петров",List.of("3543642346","2432134", "54134653"));
         book.put("Сидоров",List.of("54213416"));
         return book;
 }
@@ -60,12 +60,12 @@ public class Task1 {
                     3. Печать телефонной книги\s
                     4. Выход""");
             System.out.print("\nВыберите пункт меню-> ");
-            String comands = scan();
-            if (comands.equals("4")) {
+            String commands = scan();
+            if (commands.equals("4")) {
                 System.exit(4);
                 break;
             } else {
-                switch (comands) {
+                switch (commands) {
                     case "1" -> find(book);
                     case "2" -> add(book);
                     case "3" -> allBook(book);
