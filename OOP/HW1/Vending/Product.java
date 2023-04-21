@@ -1,3 +1,5 @@
+package OOP.HW1.Vending;
+
 public class Product {
     public String getName() {
         return name;
