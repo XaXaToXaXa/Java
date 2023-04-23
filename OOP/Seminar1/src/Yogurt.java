@@ -1,3 +1,4 @@
+package OOP.Seminar1.src;
 
 public class Yogurt extends Product{
     private final String flavor;

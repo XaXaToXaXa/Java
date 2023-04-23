@@ -1,3 +1,5 @@
+package OOP.Seminar2.src;
+
 public class Bat extends Predator implements Flyable{
 
     public Bat(String name) {

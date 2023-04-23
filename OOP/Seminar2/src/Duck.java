@@ -1,3 +1,5 @@
+package OOP.Seminar2.src;
+
 public class Duck extends Herbivores implements Walkable, Flyable{
     public Duck(String name) {
         super(name);

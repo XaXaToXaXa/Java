@@ -1,3 +1,5 @@
+package OOP.Seminar2.src;
+
 public class Hare extends Herbivores implements Walkable{
     public Hare(String name) {
         super(name);

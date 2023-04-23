@@ -1,3 +1,5 @@
+package OOP.Seminar2.src;
+
 public class Dolphin extends Herbivores implements Swimible {
     public Dolphin(String name) {
         super(name);

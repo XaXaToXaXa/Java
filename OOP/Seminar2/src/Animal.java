@@ -1,3 +1,5 @@
+package OOP.Seminar2.src;
+
 public abstract class Animal implements Sayable{
     private String name;
 

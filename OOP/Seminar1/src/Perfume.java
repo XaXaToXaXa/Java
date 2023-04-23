@@ -1,3 +1,5 @@
+package OOP.Seminar1.src;
+
 public class Perfume extends Product{
 
     private final String brand;

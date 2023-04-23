@@ -1,11 +1,11 @@
-package OOP.Seminar2.src;
+package OOP.HW2.Zoo;
 
 public abstract class Predator extends Animal {
     public Predator(String name) {
         super(name);
     }
-    public String feed(){
-        return "meat";
+    public String type(){
+        return "Predator";
     }
 
 }

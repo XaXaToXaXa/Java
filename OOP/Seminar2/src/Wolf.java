@@ -1,3 +1,5 @@
+package OOP.Seminar2.src;
+
 public class Wolf extends Predator implements Walkable{
     public Wolf(String name) {
         super(name);

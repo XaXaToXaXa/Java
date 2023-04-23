@@ -1,4 +1,4 @@
-package OOP.Seminar2.src;
+package OOP.HW2.Zoo;
 
 public class Radio implements Sayable {
     public String say(){

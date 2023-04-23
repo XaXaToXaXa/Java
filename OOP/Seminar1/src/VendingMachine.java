@@ -1,3 +1,5 @@
+package OOP.Seminar1.src;
+
 import java.util.ArrayList;
 import java.util.List;
 

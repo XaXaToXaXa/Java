@@ -1,3 +1,5 @@
+package OOP.Seminar2.src;
+
 public class Shark extends Predator implements Swimible{
 
     public Shark(String name){

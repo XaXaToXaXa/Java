@@ -1,3 +1,5 @@
+package OOP.Seminar1.src;
+
 public class Product {
     public String getName() {
         return name;
