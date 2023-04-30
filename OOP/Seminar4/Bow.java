@@ -1,4 +1,4 @@
-package OopSem4;
+package OOP.Seminar4;
 
 public class Bow implements Weapon{
     @Override

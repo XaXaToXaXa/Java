@@ -1,4 +1,4 @@
-package OopSem4;
+package OOP.Seminar4;
 
 public class Main {
     public static void main(String[] args) {

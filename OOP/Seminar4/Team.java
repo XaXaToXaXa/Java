@@ -1,4 +1,4 @@
-package OopSem4;
+package OOP.Seminar4;
 
 import java.util.ArrayList;
 import java.util.List;
