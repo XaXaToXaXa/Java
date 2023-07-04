@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 //Задан целочисленный список ArrayList. Найти минимальное, максимальное и среднее из этого списка.
 public class Task3 {
-    public static int findMax(ArrayList<Integer> array) {
+    public int findMax(ArrayList<Integer> array) {
         int max = array.get(0);
         for (int element : array) {
             if (element > max) max = element;
@@ -10,7 +10,7 @@ public class Task3 {
         return max;
     }
 
-    public static int findMin(ArrayList<Integer> array) {
+    public int findMin(ArrayList<Integer> array) {
         int min = array.get(0);
         for (int element : array) {
             if (element < min) min = element;
@@ -18,7 +18,7 @@ public class Task3 {
         return min;
     }
 
-    public static Double findAvg(ArrayList<Integer> array) {
+    public Double findAvg(ArrayList<Integer> array) {
         int sum = 0;
         for (int element : array) {
             sum += element;
