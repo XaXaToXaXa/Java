@@ -1,4 +1,4 @@
-package HW5;
+package HW51;
 
 //Реализуйте структуру телефонной книги с помощью HashMap, учитывая, что 1 человек может иметь несколько телефонов.
 import java.util.ArrayList;
@@ -11,9 +11,9 @@ public class Task1 {
 
     public static Map<String, List<String>> phoneBook() {
         Map<String, List<String>> book = new HashMap<>();
-        book.put("Иванов",List.of("5641321646","35133213"));
-        book.put("Петров",List.of("3543642346","2432134", "54134653"));
-        book.put("Сидоров",List.of("54213416"));
+        book.put("Ivanov",List.of("5641321646","35133213"));
+        book.put("Petrov",List.of("3543642346","2432134", "54134653"));
+        book.put("Sidorov",List.of("54213416"));
         return book;
 }
     public static String scan() {
