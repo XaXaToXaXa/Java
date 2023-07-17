@@ -39,12 +39,11 @@ public class Main {
         cat6.color = "Рыжый";
         cat6.name = "Чубайс";
 
-        System.out.println(cat5);
-        var cats = new HashSet<Cat>(Arrays.asList(cat1, cat2, cat3, cat4, cat5, cat6));
-        //System.out.println(cats);
+        System.out.println(cat6);
+        var cats = new HashSet<>(Arrays.asList(cat1, cat2, cat3, cat4, cat5, cat6));
+        System.out.println(cats);
         System.out.println(cat1.equals(cat5));
         System.out.println(cats.contains(cat6));
-        System.out.println(cat4.equals(cat6));
         System.out.println(cats);
     }
 }
